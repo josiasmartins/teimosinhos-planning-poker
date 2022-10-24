@@ -1,0 +1,12 @@
+@import '../../../../styles.css';
+
+.header {
+  background: var(--color-bg-title);
+  padding: 20px;
+  text-align: center;
+}
+
+.header__title {
+  text-transform: uppercase;
+  color: var(--color-title);
+}
