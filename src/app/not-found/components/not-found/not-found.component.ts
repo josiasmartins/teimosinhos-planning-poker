@@ -3,11 +3,11 @@ import { Router } from '@angular/router';
 import { AplicationRoutes } from '../../../shared/enums/aplication-routes';
 
 @Component({
-  selector: 'app-menu',
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.css']
+  selector: 'app-not-found',
+  templateUrl: './not-found.component.html',
+  styleUrls: ['./not-found.component.css']
 })
-export class MenuComponent implements OnInit {
+export class NotFoundComponent implements OnInit {
 
   constructor(
     private router: Router
@@ -16,7 +16,8 @@ export class MenuComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public navigateToRoom() {
-    this.router.navigateByUrl(AplicationRoutes.PLANING_ROOM);
+  public navigateToHome() {
+    this.router.navigateByUrl(AplicationRoutes.MENU);
   }
+
 }

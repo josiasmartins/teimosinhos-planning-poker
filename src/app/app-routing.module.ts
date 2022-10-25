@@ -15,6 +15,10 @@ const routes: Routes = [
   {
     path: AplicationRoutes.PLANING_ROOM,
     loadChildren: () => import('./planning-room/planning-room.module').then(m => m.PlanningRomModule)
+  },
+  {
+    path: '**',
+    loadChildren: () => import('./not-found/not-found.module').then(m => m.NotFoundModule)
   }
 ]
 

@@ -1,0 +1,12 @@
+.menu {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.menu__button button {
+  background: var(--color-bg-title);
+  color: var(--color-title);
+  padding: 10px 18%;
+  border: none;
+  margin-top: 20px;
+}

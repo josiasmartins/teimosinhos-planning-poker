@@ -1,0 +1,15 @@
+.footer {
+  background: var(--color-bg-title);
+  text-align: center;
+  padding: 10px;
+  margin-top: 10vh;
+}
+
+.footer__copyright {
+  color: var(--color-title);
+}
+
+.footer__copyright:hover {
+  color: rgb(134, 12, 216);
+  font-weight: bold;
+}

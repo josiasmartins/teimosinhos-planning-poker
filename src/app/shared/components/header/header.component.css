@@ -10,3 +10,8 @@
   text-transform: uppercase;
   color: var(--color-title);
 }
+
+.header__title:hover {
+  color: rgb(182, 11, 230);
+  font-weight: bold;
+}
